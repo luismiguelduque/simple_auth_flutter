@@ -11,7 +11,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  simple_auth: ^2.0.8
+  simple_auth:
+    git: 
+      url: https://github.com/luismiguelduque/simple_auth.git
+      ref: master
 flutter:
   plugin:
     platforms:
